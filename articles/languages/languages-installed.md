@@ -105,7 +105,7 @@ Screenshot above. The functions are:
   parameters can be edited.
 - **Help**. Opens this help screen.
 
-## Quick Tips
+## Tips
 
 - Users can use any Language from the list of installed Languages,
   either by having it assigned in the Users list or

@@ -378,7 +378,7 @@ de Ecrã](#screenshot) acima.
 - **Toggle Inline Help**. Show help text below some options.
 - **Ajuda**. Abre este ecrã de ajuda.
 
-## Quick Tips
+## Tips
 
 - There are 2 methods to insert an image into article using the TinyMCE
   editor.

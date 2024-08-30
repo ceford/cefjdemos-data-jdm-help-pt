@@ -166,7 +166,7 @@ articles.
     the changes. A message **"Batch process completed successfully."**
     will show.
 
-## Quick Tips
+## Tips
 
 - If Joomla is installed without sample data, one article category
   called 'Uncategorised' is created automatically.
