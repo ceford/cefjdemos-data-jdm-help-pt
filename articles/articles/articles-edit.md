@@ -27,7 +27,7 @@ To edit a Article:
 
 ## Screenshot
 
-![Articles edit screenshot](../../../ptbr/images/articles/articles-edit-content-tab.png "Articles edit")
+![Articles edit screenshot](../../../ptbr/images/articles/articles-edit-content-tab.png)
 
 ## Form Fields
 
