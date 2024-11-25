@@ -1,94 +1,64 @@
-<!-- Filename: Help4.x:Smart_Search:_New_or_Edit_Filter / Display title: Editar Filtros de Pesquisa do Gestor de Localização de Componentes -->
+<!-- Filename: Help4.x:Smart_Search:_New_or_Edit_Filter / Display title: Pesquisa Inteligente: Novo ou Editar Filtro  -->
 
 ## Descrição
 
-This screen allows you to create a new search filter or amend an
-existing one.
+A página *Pesquisa Inteligente: Novo ou Editar Filtro* é usada para criar um novo filtro de pesquisa ou modificar um filtro existente.
 
-## Como aceder
+### Elementos Comuns
 
-- Select **Components → Smart Search → Filters** from the
-  Administrator menu. Then...
-  - Select the **New** Toolbar button to create a new filter.
-  - Select a title link in the **Title** column to edit an existing
-    filter.
+Alguns elementos desta página são abordados em artigos de ajuda separados:
 
-## Captura de Ecrã
+* [Barras de Ferramentas](jdocmanual?article=help/common-elements/toolbars).
 
-<img
-src="https://docs.joomla.org/images/a/a4/Help-4x-Components-Finder-Manage-Search-Filters-Edit-screen-en.png"
-decoding="async" data-file-width="800" data-file-height="900"
-width="800" height="900"
-alt="Components Finder Manage Search Filters Edit screen" />
+### Tutorial
 
-## Form Fields
+* Se você é novo na Pesquisa Inteligente, deve ler o [guia rápido de início para Pesquisa Inteligente](https://docs.joomla.org/Smart_Search_quickstart_guide).
 
-- **Title**. The Title for this item. This may or may not display on the
-  page, depending on the parameter values you choose.
-- **Alias**. The internal name of the item. Normally, you can leave this
-  blank and Joomla will fill in a default value Title in lower case and
-  with dashes instead of spaces.
+## Como acessar
 
-## Edit Filter Tab
+- Selecione **Componentes → Busca Inteligente → Filtros** no menu do Administrador. Em seguida...
+  - Selecione o botão **Novo** na barra de ferramentas para criar um novo filtro.
+  - Selecione um link de título na coluna **Título** para editar um filtro existente.
 
-- **Map Count.** The number of maps included in the filter.
-- **Toggle Selection.** The Toggle Selection button will change all the
-  selections in the opposite way. So selected will change into
-  unselected and unselected will change into selected.
-- **Expand all.** The Expand all button will open all the maps and show
-  the items inside.
+## Captura de Tela
 
-## Options Tab
+![edição de filtro de pesquisa inteligente](../../../pt/images/smart-search/smart-search-edit-filter.png)
 
-<img
-src="https://docs.joomla.org/images/3/35/Help-4x-Components-Finder-Manage-Search-Filters-subscreen-Options-tab-en.png"
-decoding="async" data-file-width="600" data-file-height="438"
-width="800" height="584"
-alt="Components Finder Manage Search Filters subscreen Options tab" />
+## Campos do Formulário
 
-#### Publishing panel
+## Guia de Edição de Filtro
 
-- **Created Date**. Date the item(Article, Category, Weblink, etc.) was
-  created.
-- **Created By**. Name of the Joomla! User who created this item. This
-  will default to the currently logged-in user. If you want to change
-  this to a different user, click the Select User button to select a
-  different user.
-- **Alias.** This optional field allows you to enter an alias for the
-  Author of the filter.
-- **Modified Date:** *(Informative only)* Date of last modification.
-- **Modified By:** *(Informative only)* Username who performed the last
-  modification.
+- **Contagem de Mapas** O número de mapas incluídos no filtro.
+- **Alternar Seleção** O botão de Alternar Seleção mudará todas as
+  seleções para o sentido oposto. Assim, selecionado mudará para
+  não selecionado e não selecionado mudará para selecionado.
+- **Expandir tudo** O botão Expandir tudo abrirá todos os mapas e mostrará
+  os itens dentro.
+  - **Pesquisar por Tipo** O número é a quantidade de Tipos como Artigos,
+    Categorias, Contatos ou Feeds de Notícias.
+  - **Pesquisar por Autor** O número é a quantidade de autores que possuem itens
+    indexados.
+  - **Pesquisar por Categoria** O número é a quantidade de Categorias indexadas.
+  - **Outros** Qualquer outro tipo de item pesquisável.
 
-#### Filter Timeline panel
+## Aba de Opções
 
-- **When (Start Date).** When to search relative to the start date
-  (before, after or exactly).
-- **Data de Início.** Formato DD-MM-AAAA.
-- **Quando (Data de Fim).** Quando pesquisar em relação à data de fim
-  (antes, depois ou exatamente).
-- **Data de Fim.** Formato DD-MM-AAAA.
+![opções de filtro de edição de pesquisa inteligente](../../../pt/images/smart-search/smart-search-edit-filter-options-tab.png)
 
-## Barra de Ferramentas
+### Painel de Publicação
 
-At the top of the page you will see the toolbar shown in the
-Screenshot above. The functions are:
+- **Data de Criação** Data em que o item foi criado (Artigo, Categoria, Weblink, etc.).
+- **Criado Por** Nome do Usuário Joomla! que criou este item. O padrão será o usuário atualmente logado. Se você deseja mudar para um usuário diferente, clique no botão Selecionar Usuário para escolher um usuário diferente.
+- **Alias** Este campo opcional permite que você insira um alias para o Autor do filtro.
+- **Data de Modificação** Data da última modificação, apenas para informação.
+- **Modificado Por** Nome do usuário que realizou a última modificação, apenas para informação.
 
-- **Save**. Saves the item and stays in the current screen.
-- **Save & Close**. Saves the item and closes the current screen.
-- **Save & New**. Saves the item and keeps the editing screen open and
-  ready to create another item.
-- **Cancel**. Closes the current screen and returns to the previous
-  screen without saving any modifications you may have made. Or
-- **Close**. Closes the current screen and returns to the previous
-  screen without saving any modifications you may have made. This
-  toolbar icon is not shown if you are creating a new item.
-- **Help**. Opens this help screen.
+### Painel de Linha do Tempo do Filtro
 
-## Dicas Rápidas
+- **Quando (Data de Início)** Quando buscar em relação à data de início (antes, depois ou exatamente).
+- **Data de Início** Formato AAAA-MM-DD.
+- **Quando (Data de Término)** Quando buscar em relação à data de término (antes, depois ou exatamente).
+- **Data de Término** Formato AAAA-MM-DD.
 
-- A «Pesquisa Inteligente» foi introduzida no Joomla 3.0, mas não está
-  ativada por predefinição nessa versão.
-- Se é novo na «Pesquisa Inteligente», então deveria ler o [Guia de
-  iniciação rápida da «Pesquisa
-  Inteligente»](https://docs.joomla.org/Smart_Search_quickstart_guide "Smart Search quickstart guide").
+*Traduzido por openai.com*
+

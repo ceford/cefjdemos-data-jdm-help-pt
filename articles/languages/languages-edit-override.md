@@ -1,79 +1,44 @@
-<!-- Filename: Help4.x:Languages:_Edit_Override / Display title: Substituição de Edição do Gestor de Idiomas das Extensões -->
+<!-- Filename: Help4.x:Languages:_Edit_Override / Display title: Idiomas: Editar Substituição  -->
 
 ## Descrição
 
-A «Substituição» permite-lhe alterar uma entrada principal do Joomla.
+No código do Joomla, as cadeias de texto que devem aparecer na Interface do Usuário, seja na interface do Site ou na interface do Administrador, são expressas como constantes de string. Por exemplo, a cadeia de texto *Sua sessão expirou. Por favor, faça login novamente.* é expressa como `JLIB_ENVIRONMENT_SESSION_EXPIRED`. A cadeia de texto pode ser traduzida para qualquer idioma. O idioma padrão é o inglês britânico. Existem milhares dessas cadeias em uma instalação do Joomla.
 
-No código do Joomla, as entradas de texto que são para aparecer na
-«Interface do Utilizador», na interface do «Site» ou na interface do
-«Administrador», são expressas como constantes de entrada. Por exemplo,
-a entrada "Por favor, inicie a sessão para ver o artigo" é expressa como
-*COM_CONTENT_ERROR_LOGIN_TO_VIEW_ARTICLE*. A entrada do texto pode ser
-traduzida para qualquer idioma. O idioma predefinido é inglês Britânico.
-Existem centenas de tais entradas numa instalação do Joomla.
+Se uma cadeia de texto não se adequar ao seu site, você pode usar o recurso de Substituição de Idioma para substituir a original. A página *Idiomas: Substituições* mostra uma lista de substituições existentes, sendo inicialmente vazia.
 
-Se uma entrada não se adequar ao seu *site*, poderá utilizar a
-funcionalidade «Substituição de Idioma» para substituir o original.
+### Elementos Comuns
 
-## Como Aceder
+Alguns aspectos desta página são abordados em artigos de ajuda separados:
 
-- Selecione **Sistema → Painel de Gestão → Substituição de
-  Idioma**. Depois...
-  - Selecione um **Idioma e Cliente** na lista suspensa. Depois...
-    - Clique no botão **Novo** na «Barra de Ferramentas» para criar uma
-      nova substituição. Ou...
-    - Selecione a hiperligação constante na coluna **Constante** para
-      editar uma substituição existente.
+* [Barras de Ferramentas](jdocmanual?article=help/common-elements/toolbars).
 
-## Captura de Ecrã
+## Como Acessar
 
-<img
-src="https://docs.joomla.org/images/thumb/0/01/Help-4x-Extensions-Language-Manager-Overrides-Edit-screen-en.png/800px-Help-4x-Extensions-Language-Manager-Overrides-Edit-screen-en.png"
-decoding="async"
-srcset="https://docs.joomla.org/images/0/01/Help-4x-Extensions-Language-Manager-Overrides-Edit-screen-en.png 1.5x"
-data-file-width="1151" data-file-height="927" width="800" height="644"
-alt="Extensions Language Manager Overrides Edit screen" />
+- Selecione **Sistema → Gerenciar Painel → Substituições de Idioma**. Em seguida...
+  - Selecione um **Idioma e Cliente** na lista suspensa. Em seguida...
+    - Selecione o botão **Novo** na barra de ferramentas para criar uma nova substituição.
+      Ou...
+    - Selecione o link na coluna **Constante** para editar uma substituição existente.
 
-## Dos Campos
+## Captura de Tela
 
-#### Right Panel: Search text you want to change
+![Substituir Edição de Idiomas](../../../pt/images/languages/languages-edit-override.png)
 
-- **Search For.** Start here! You are more likely to know the Value
-  (expired) than the Constant (\_EXPIRED). In either case, the search is
-  a case insensitive for the partial string.
-- **Search Text.** Enter the text to search for and select the
-  **Search** button.
-- **Search Results.** A list of strings containing the search term
-  appears in a separate panel. Select the one you are looking for. The
-  constant and text will be copied into the **Create a New Override**
-  panel, labelled **Edit this Override** if you editing an existing
-  override.
+## Campos de Formulário
 
-#### Left Panel: Create a New Override or Edit this Override
+### Painel Direito: Pesquisar o texto que você deseja alterar
 
-- **Language Constant.** This is the strings used in the code by the
-  developer. If the value does not exist in the code the string will
-  never be used.
-- **Text.** This is where you override the default term with your
-  version.
-- **File.** This shows where the override file is located in the file
-  system. You might need to know this for trouble-shooting.
+- **Pesquisar por** Comece aqui! Você provavelmente conhece o Valor (expirado) mais do que a Constante (`_EXPIRED`). Em ambos os casos, a pesquisa é insensível a maiúsculas e minúsculas para a string parcial.
+- **Texto de Pesquisa** Insira o texto a ser pesquisado e selecione o botão *Pesquisar*.
+- **Resultados da Pesquisa** Uma lista de strings contendo o termo de pesquisa aparece em um painel de Resultados separado abaixo do painel Direito. Selecione o que você está procurando. A constante e o texto serão copiados para o *painel esquerdo* para serem atualizados e salvos.
 
-## Barra de Ferramentas
+### Painel Esquerdo: Criar uma Nova Sobrescrita ou Editar esta Sobrescrita
 
-Próximo do topo da página irá ver a barra de filtro mostrada na «Captura
-de Ecrã» acima. As funções são:
+- **Idioma** e **Localização** Estes foram selecionados antes de abrir este formulário de edição e não podem ser alterados.
+- **Constante de Idioma** Esta é a string usada no código pelo desenvolvedor. Se o valor não existir no código, a string nunca será usada.
+- **Texto** É aqui que você sobrescreve o termo padrão com a sua versão.
+- **Para Ambas as Localizações** Selecione para aplicar a sobrescrita tanto no front-end quanto no back-end.
+- **Arquivo** Este mostra onde o arquivo de sobrescrita está localizado no sistema de arquivos. Você pode precisar saber disso para a resolução de problemas.
 
-- **Guardar**. Guarda o item e fica no ecrã atual.
--
+*Traduzido por openai.com*
 
-**Save & Close**. Saves the item and closes the current screen.
-
-- **Guardar e Novo**. Guarda o item e mantém o ecrã de edição aberto e
-  pronto para criar outro item.
-- **Cancelar**. Fecha o ecrã atual e volta para o ecrã anterior sem
-  guardar quaisquer modificações que tenham sido efetuadas. Ou
-- **Fechar**. Fecha o ecrã atual e volta ao ecrã anterior sem guardar
-  quaisquer modificações que tenham sido efetuadas. This toolbar icon is
-  not shown if you are creating a new item.
-- **Ajuda**. Abre este ecrã de ajuda.

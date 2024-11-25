@@ -2,175 +2,58 @@
 
 ## Descrição
 
-O «Gestor de Artigos» é utilizado para encontrar, marcar os destaques,
-adicionar e editar artigos.
+No Joomla!, um Artigo é uma unidade autônoma de informação escrita para exibição no site. Normalmente contém texto e pode conter imagens e outros tipos de conteúdo. Para muitos sites Joomla!, os artigos formam a maioria das informações apresentadas.
 
-Articles are the basic units of information in the content system and
-the bottom level in the content hierarchy. Each Article is in exactly
-one Category.
+É importante entender que o conteúdo do site é totalmente separado da formatação do site, da maneira como ele aparece na página. Portanto, é melhor pensar nos Artigos como conteúdo puro, independente da apresentação. O mesmo Artigo pode ser exibido com diferentes fontes, cores, títulos e plano de fundo e pode ser mostrado em diferentes locais na página, tudo dependendo de outras configurações no CMS Joomla!.
 
-## Como Aceder
-Selecione **Painel principal → Site → Artigos**
+A página de lista de **Artigos** é usada para gerenciar artigos. Isso inclui a criação de novos artigos, localização de artigos para editar e alteração de propriedades do artigo, como publicado ou não e destacado ou não. Além disso, algumas propriedades podem ser alteradas para um grupo de artigos usando um Processo em Lote.
 
-To add a Article:
+### Elementos Comuns
 
-- click the **New** toolbar button
+Alguns elementos desta página são abordados em artigos de Ajuda separados:
 
-To edit a Article:
+* [Barras de Ferramentas](jdocmanual?article=help/common-elements/toolbars).
+* [Filtros de Lista](jdocmanual?article=help/common-elements/list-filters).
+* [Cabeçalhos de Colunas da Lista](jdocmanual?article=help/common-elements/list-column-headers).
+* [Ordenação de Itens da Lista](jdocmanual?article=help/common-elements/list-ordering).
+* [Paginação da Lista](jdocmanual?article=help/common-elements/list-pagination).
+* [Processo em Lote da Lista](jdocmanual?article=help/common-elements/list-batch-process).
 
-- select a **Title** from the list
+## Como Acessar
 
-## Captura de Ecrã
+Existem duas maneiras de acessar a página da lista de Artigos:
 
-![Articles list](../../../ptbr/images/articles/articles-list.png "Article list")
+* Selecione **Painel do Site → Artigos** no Painel Inicial.
+* Selecione **Conteúdo → Artigos** no menu do Administrador.
+
+
+## Captura de Tela
+
+![Lista de Artigos](../../../pt/images/articles/articles-list.png)
 
 ## Cabeçalhos de Coluna
 
-- **Checkbox**. Check this box to select articles. To select all
-  articles, check the box in the column heading. After boxes are checked
-  the toolbar button 'Actions' get active.
-- **Ordem**. You can change the order of an article within a list as
-  follows:
-  - Select the Ordering icon <i class="fa-solid fa-sort"></i> in the first
-  column heading to make it active.
-  - Select one of the vertical ellipsis icons <span class="icon-ellipsis-v"></span>
- and drag it up or down to change the
-    position of that row in the list.
-  - In the Filter Options you may limit the list to articles that are
-    assigned for example to a Language.
-- **Em destaque**. Click the icon to toggle. The article will show on
-  the Featured Articles
-  page.
-- **Estatuto**. Status of article. Hover icon for informations.
-- **Título**. The title of the article. Edit the article by clicking on
-  the Title.
-- **Acesso**. The viewing Access level  for this article.
-- **Autor**. Name of the User who created this article.
-- **Associação**. Shows the associated articles. Click on the Language
-  Code to open the article. Multilingual only.
-- **Idioma**. Articles language, default is 'All'.
-- **Data de criação**. The date this article was created.
-- **Acessos**. The number of times an article has been viewed.
-- **ID**. A unique identification number for this article, you cannot
-  change this number.
+- **Caixa de Seleção** Marque esta caixa para selecionar artigos. Para selecionar todos os artigos, marque a caixa no cabeçalho da coluna. Após marcar as caixas, o botão da barra de ferramentas *Ações* se torna ativo.
+- **Ordenação** Você pode alterar a ordem de um artigo dentro de uma lista da seguinte forma:
+  - Selecione o ícone de ordenação <i class="fa-solid fa-sort"></i> no primeiro cabeçalho da coluna para ativá-lo.
+  - Selecione um dos ícones de reticências verticais <span class="icon-ellipsis-v"></span> e arraste-o para cima ou para baixo para mudar a posição dessa linha na lista.
+  - Nas Opções de Filtro, você pode limitar a lista a artigos que estão atribuídos, por exemplo, a um Idioma.
+- **Em Destaque** Clique no ícone para alternar. O artigo aparecerá na página de Artigos em Destaque.
+- **Status** Status do artigo. Passe o cursor sobre o ícone ou navegue até ele para ver as informações de Status ou ouvir um equivalente em áudio.
+- **Título** O título do artigo, que pode ser selecionado para ir à página de *Edição de Artigo*.
+- **Acesso** O nível de Acesso de visualização para este artigo.
+- **Autor** O nome do Usuário que criou este artigo.
+- **Associações** Isso mostra artigos associados em um site multilíngue. Selecione o *Código de Idioma* para abrir o artigo nesse idioma.
+- **Idioma** Idioma dos artigos, o padrão é *Todos*.
+- **Data de Criação** A data em que este artigo foi criado.
+- **Visualizações** O número de vezes que um artigo foi visualizado.
+- **ID** Um número de identificação único para este artigo. Não pode ser alterado.
 
-## Filtros de Lista
+## Dicas
 
-**Search bar**. Near the top of the page you will see the search bar
-shown in the Screenshot above.
+- Uma categoria de artigo chamada *Sem Categoria* é criada na Instalação.
+- Para ver artigos enviados para a lixeira e arquivados, defina o filtro de Status para *Todos*.
+- Para mudar a ordenação dos artigos dentro de uma categoria: filtre pela categoria e então selecione o cabeçalho da coluna de Ordenação para classificar por esta coluna. 
 
-- **Search by Text**. Enter part of the search term and click the Search
-  icon. *Hover* to see a *Tooltip* indicating which fields will be
-  searched.To 'Search by ID' enter "id:x", where "x" is the ID number
-  (for example, "id:19").
-- **Opções de filtro**. Click to display the additional filters.
-- **Limpar**. Click to clear the Filter field and restore the list to
-  its unfiltered state.
-- **Ordering**. Shows the current list ordering field. 2 ways to change
-  the order:
-  - Select from the dropdown list. Ordering may be in ascending or
-    descending order.
-  - Click a column heading. The column heading toggles between ascending
-    and descending order.
-- **Number to Display**. Shows the number of articles in a list. Select
-  from the dropdown list to change the number displayed.The default for
-  a site is '20' but this may be changed in the Global Configuration.
+*Traduzido por openai.com*
 
-### Opções de filtro
-
-Próximo do topo da página irá ver a barra de filtro mostrada na [Captura
-de Ecrã](#screenshot) acima.
-
-- **Escolher destacados**. Select from Unfeatured Articles / Featured
-  Articles.
-- **Selecionar estatuto**. Select from Trashed / Unpublished / Published
-  / Archived / All.
-- **Escolher categorias**. Select from the list of available categories.
-- **Selecionar acesso**. Select from the list of available viewing
-  access levels.
-- **Escolher autor**. Select from the list of available authors.
-- **Escolher idioma**. Select from the list of available languages.
-- **Escolher etiqueta**. Select from the list of available tags.
-- **Máximo de níveis**. Select from the list of available levels.
-
-### Pagination
-
-**Page Controls**. When the number of articles is more than one page,
-you will see a page control bar near the bottom of the page shown in the
-Screenshot above. The current page number being viewed
-has a dark colour background.
-
-- **Start**. Click to go to the first page.
-- **Prev**. Click to go to the previous page.
-- **Page numbers**. Click to go to the desired page.
-- **Next**. Click to go to the next page.
-- **End**. Click to go to the last page.
-
-## Toolbar
-
-No topo da página, irá ver a barra de ferramentas mostrada na [Captura
-de Ecrã](#screenshot) acima.
-
-- **Novo**. Opens the editing screen to create a new article.
-- **Ações**. Reveals a list of actions for selected articles. Check one
-  or more articles checkboxes to activate the list.
-  - **Publicar**. Makes the selected articles available to visitors to
-    your website.
-  - **Despublicar**. Makes the selected articles unavailable to visitors
-    to your website.
-  - **Despublicar**. Marks selected articles as featured.
-  - **Retirar destaque**. Changes the status of featured articles to
-    unfeatured.
-  - **Arquivar**. Changes the status of the selected articles to
-    indicate that they are archived.
-  - **Validar**. Checks-in the selected articles.
-  - **Reciclagem**. Changes the status of the selected articles to
-    indicate that they are trashed.
-  - **Em lote**. Batch processes the selected articles.
-- **Opções**. Abre a janela das «Opções» onde as definições como os
-  parâmetros predefinidos podem ser editados.
-- **Ajuda**. Abre este ecrã de ajuda.
-
-## Batch Process
-
-The Batch Process allows a change in settings for a group of selected
-articles.
-
-![articles batch process](../../../ptbr/images/articles/articles-list-batch.png "Articles batch process")
-
-**How to Batch Process** a group of articles:
-
-1.  Select one or more articles on the list by checking the desired
-    checkboxes.
-2.  Click the Batch Toolbar button.
-3.  Set one or more of the following values:
-    - To change the **Language**, select the desired new language from
-      the Set Language list box.
-    - To change the **Access Levels**, select the desired new access
-      level from the Set Access Level list box.
-    - To change the **Category**, select a category. To leave the
-      category unchanged, use the default value of 'Select'.
-      - To **copy** the articles to a different category, select the
-        desired category from the category list box and check the Copy
-        option. In this case, the original articles are unchanged and
-        the copies are assigned to the new category and, if selected,
-        the new language, access level, and tag.
-      - To **move** the articles to a different category, select the
-        desired category from the category list box and check the Move
-        option. In this case, the original articles will be moved to a
-        new category and, if selected, be assigned the new language,
-        access level, and tag.
-    - To add **Tags**, select the desired Tags from the dropdown or
-      choose to keep the tags currently added to the original articles.
-4.  When all of the settings are entered, click on Process to perform
-    the changes. A message **"Batch process completed successfully."**
-    will show.
-
-## Tips
-
-- If Joomla is installed without sample data, one article category
-  called 'Uncategorised' is created automatically.
-- To see trashed and archived articles, set the Status filter to 'All'.
-- To change the ordering of articles within a category, click on the
-  Ordering column heading to sort by this column. Also, it is easier to
-  see the ordering if you filter on the desired category.

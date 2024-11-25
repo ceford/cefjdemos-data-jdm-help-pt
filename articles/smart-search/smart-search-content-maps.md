@@ -1,170 +1,57 @@
-<!-- Filename: Help4.x:Smart_Search:_Content_Maps / Display title: Smart Search: Content Maps -->
+<!-- Filename: Help4.x:Smart_Search:_Content_Maps / Display title: Pesquisa Inteligente: Mapas de Conteúdo -->
 
 ## Descrição
 
-This screen shows the content maps currently in the Smart Search index.
-Content maps allow you to cross-reference your indexed content
-(articles, etc) to related meta information such as the category in
-which it resides. Each content item that is indexed by Smart Search is
-added to one or more content maps that can be used as filters when
-searching the index.
+A página *Pesquisa Inteligente: Mapas de Conteúdo* mostra os mapas de conteúdo atualmente no índice da Pesquisa Inteligente. Os mapas de conteúdo permitem que você faça uma referência cruzada do seu conteúdo indexado (artigos, etc.) com informações meta relacionadas, como a categoria em que ele se encontra. Cada item de conteúdo que é indexado pela Pesquisa Inteligente é adicionado a um ou mais mapas de conteúdo que podem ser usados como filtros ao pesquisar no índice.
 
-Content maps are split into two parts:
+Os mapas de conteúdo são divididos em duas partes:
 
-- Map Group: These are super-containers for a particular type of
-  information. For example, a Map Group could be "Type", "Category",
-  "Event", "Language" or "Author".
-- Content Map: Content maps are the actual values for the meta
-  information in a particular Map Group. The Content Maps are, for
-  example, the names of the categories or authors.
+- Grupo de Mapas: São super-contêineres para um tipo específico de informação. Por exemplo, um Grupo de Mapas pode ser *Tipo*, *Categoria*, *Evento*, *Idioma* ou *Autor*.
+- Mapa de Conteúdo: Os mapas de conteúdo são os valores reais para a informação meta em um Grupo de Mapas específico. Os Mapas de Conteúdo são, por exemplo, os nomes das categorias ou autores.
 
-These Map Groups and Content Maps are what make up the advanced search
-panel available on the front-end. For each Map Group there can be a
-drop-down select list and the Content Maps are added as values to the
-respective list. More advanced site builders can override the default
-layouts and use multi-select lists or checkboxes instead.
+Esses Grupos de Mapas e Mapas de Conteúdo formam o painel de pesquisa avançada disponível na interface do usuário. Para cada Grupo de Mapas, pode haver uma lista selecionável em forma de drop-down, e os Mapas de Conteúdo são adicionados como valores à lista respectiva. Criadores de sites mais avançados podem substituir os layouts padrão e usar listas de seleção múltipla ou caixas de seleção em vez disso.
 
-It's important to note that Map Groups and Content Maps from different
-content types are merged into the one list. A Joomla article in a
-category called "News" and a news feed or contact in a category named
-the same are mapped to the same Content Map in the same Map Group. This
-is a little like tagging different types of content with the same label.
-The effect is that your site visitor does not have to know how your
-content is classified in order to set the correct filters to find it.
+É importante notar que Grupos de Mapas e Mapas de Conteúdo de diferentes tipos de conteúdo são mesclados em uma única lista. Um artigo do Joomla em uma categoria chamada *Notícias* e um feed de notícias ou contato em uma categoria com o mesmo nome são mapeados para o mesmo Mapa de Conteúdo no mesmo Grupo de Mapas. Isso é um pouco como etiquetar diferentes tipos de conteúdo com o mesmo rótulo. O efeito disso é que o visitante do seu site não precisa saber como o seu conteúdo é classificado para definir os filtros corretos para encontrá-lo.
 
-The content maps screen shows all the Map Groups within the Smart Search
-index together with a number indicating the number of Content Maps
-within that Map Group and the items within a Contrent Map. Clicking on a
-Map Groups number allows you to see the Content Map within that Map
-Group together with the number of content items that belong to that
-Content Map. A content item can belong to multiple Content Maps within a
-Map Group as well as to multiple Map Groups.
+A tela de mapas de conteúdo mostra todos os Grupos de Mapas dentro do índice da Pesquisa Inteligente juntamente com um número que indica a quantidade de Mapas de Conteúdo dentro desse Grupo de Mapas e os itens dentro de um Mapa de Conteúdo. Clicar no número de um Grupo de Mapas permite que você veja o Mapa de Conteúdo dentro desse Grupo de Mapas junto com o número de itens de conteúdo que pertencem a esse Mapa de Conteúdo. Um item de conteúdo pode pertencer a múltiplos Mapas de Conteúdo dentro de um Grupo de Mapas assim como a múltiplos Grupos de Mapas.
 
-## Como aceder
+### Elementos Comuns
 
-- Select **Components → Smart Search → Content Maps** from the
-  Administrator menu.
+Alguns elementos desta página são abordados em artigos de Ajuda separados:
 
-## Captura de Ecrã
+* [Barras de ferramentas](jdocmanual?article=help/common-elements/toolbars).
+* [Filtros de Lista](jdocmanual?article=help/common-elements/list-filters).
+* [Cabeçalhos de Coluna de Lista](jdocmanual?article=help/common-elements/list-column-headers).
+* [Ordenação de Itens da Lista](jdocmanual?article=help/common-elements/list-ordering).
+* [Paginação de Lista](jdocmanual?article=help/common-elements/list-pagination).
 
-<img
-src="https://docs.joomla.org/images/e/e5/Help-4x-Components-Finder-ContentMaps-subscreen-en.png"
-decoding="async" data-file-width="800" data-file-height="411"
-width="800" height="411"
-alt="Components Finder ContentMaps subscreen" />
+### Tutorial
 
-## Cabeçalhos de Coluna
+* Se você é novo na Pesquisa Inteligente, deve ler o [guia de início rápido da Pesquisa Inteligente](https://docs.joomla.org/Smart_Search_quickstart_guide).
 
-In the table containing the indexed content for your Joomla! site you
-will see different columns. Here you can read what they mean and what is
-displayed in each column.
+## Como acessar
 
-<img
-src="https://docs.joomla.org/images/9/9f/Help31-Components-Smart-Search-Content-Maps-columns-en.png"
-decoding="async" data-file-width="1030" data-file-height="32"
-width="1030" height="32"
-alt="Help31 Components Smart Search Content Maps columns en.png" />
+- Selecione **Componentes → Pesquisa Inteligente → Mapas de Conteúdo** no menu do Administrador.
 
-- **Checkbox**. Check this box to select one or more items. To select
-  all items, check the box in the column heading. After one or more
-  boxes are checked, click a toolbar button to take an action on the
-  selected item or items. Many toolbar actions, such as Publish and
-  Unpublish, can work with multiple items. Others, such as Edit, only
-  work on one item at a time. If multiple items are checked and you
-  press Edit, the first item will be opened for editing.
-- **Status**. The status of the content item within Smart Search.
-  Published items are shown with a green tick; unpublished items by a
-  red circle. You can change the status of an item by clicking on the
-  icon. Changing the status on this screen only affects whether the
-  content item is available in search results and does not affect the
-  content item itself.
-- **Title**. The title of the Map Group or Content Map.
-- **Maps**. The number of maps inside the Map Group. Selecting the
-  number wil show the maps inside the Map Group.
-- **Published Indexed Content**. The number of published content items
-  in the Map Group. Selecting the number will show the published content
-  items inside the Map Group.
-- **Unpublished Indexed Content**. The number of unpublished content
-  items in the Map Group. Selecting the number will show the unpublished
-  content items inside the Map Group.
+## Captura de Tela
 
-## Filtros de Lista
+![mapas de conteúdo de pesquisa inteligente](../../../pt/images/smart-search/smart-search-content-maps.png)
 
-**Search bar**. Near the top of the page you will see the search bar
-shown in the Screenshot above.
+## Cabeçalhos de Colunas
 
-- **Search by Text**. Enter part of the search term and click the Search
-  icon. *Hover* to see a *Tooltip* indicating which fields will be
-  searched.To 'Search by ID' enter "id:x", where "x" is the ID number
-  (for example, "id:19").
-- **Filter Options**. Click to display the additional filters.
-- **Clear**. Click to clear the Filter field and restore the list to its
-  unfiltered state.
-- **Ordering**. Shows the current list ordering field. 2 ways to change
-  the order:
-  - Select from the dropdown list. Ordering may be in ascending or
-    descending order.
-  - Click a column heading. The column heading toggles between ascending
-    and descending order.
-- **Number to Display**. Shows the number of items in a list. Select
-  from the dropdown list to change the number displayed.The default for
-  a site is '20' but this may be changed in the Global Configuration.
-
-#### Filter Options
-
-- **Filter by published status.** Choose whether to show only published
-  or unpublished maps by selecting the appropriate item from the
-  drop-down list. The published state of the maps in Smart Search is
-  independent of their published state elsewhere.
-- **Filter by Map Group**. Select the Map Group from the drop-down list.
-  - Authors
-  - Categories
-  - Languages
-  - Types
-- **Filter by Max Levels (Category Level).** Lets you show only items
-  whose category is at or above the specified level in the category
-  hierarchy.
-  - ***- Select Max Levels -:*** Show all items regardless of level of
-    their assigned category.
-  - ***1:*** Only show items whose category is at the top level in the
-    category hierarchy (in other words, with categories whose parent
-    category is "- No Parent -".)
-  - ***2-10:*** Only show items whose category is in the top 2-10 levels
-    in the category hierarchy.
+- **Status** O status do item de conteúdo dentro da Busca Inteligente. Alterar o status afeta apenas se o item de conteúdo está disponível nos resultados de pesquisa e não afeta o item de conteúdo em si.
+- **Título** O título do Grupo de Mapas ou Mapa de Conteúdo.
+- **Mapas** O número de mapas dentro do Grupo de Mapas. Selecionar o número mostrará os mapas dentro do Grupo de Mapas.
+- **Conteúdo Indexado Publicado** O número de itens de conteúdo publicados no Grupo de Mapas. Selecionar o número mostrará os itens de conteúdo publicados dentro do Grupo de Mapas.
+- **Conteúdo Indexado Não Publicado** O número de itens de conteúdo não publicados no Grupo de Mapas. Selecionar o número mostrará os itens de conteúdo não publicados dentro do Grupo de Mapas.
 
 ## Barra de Ferramentas
 
-At the top of the page you will see the toolbar shown in the
-Screenshot above. The functions are:
+- **Ações** Revela uma lista de ações para os itens selecionados. Marque uma ou mais caixas de seleção de itens para ativar a lista.
+  - **Publicar**. Torna os Grupos de Mapas ou Mapas de Conteúdo selecionados disponíveis para visitantes do seu site.
+  - **Despublicar.** Torna os Grupos de Mapas ou Mapas de Conteúdo selecionados indisponíveis para visitantes do seu site. Um Grupo de Mapas despublicado não será exibido como uma lista de seleção no front-end. Um Mapa de Conteúdo despublicado não aparecerá na lista de seleção para o Grupo de Mapas no qual ocorre. A reindexação não altera o estado de publicação de Grupos de Mapas ou Mapas de Conteúdo.
+- **Excluir** Exclui os Grupos de Mapas ou Mapas de Conteúdo selecionados. Funciona com um ou vários Grupos de Mapas ou Mapas de Conteúdo selecionados. Você pode recuperar Grupos de Mapas ou Mapas de Conteúdo excluídos executando novamente o indexador de Pesquisa Inteligente.
+- **Estatísticas** Mostra algumas estatísticas básicas sobre a Pesquisa Inteligente. 
 
-- **Actions:** Reveals a list of actions for selected Items. Check one
-  or more Item checkboxes to activate the list.
-- **Publish**. Makes the selected Map Groups or Content Maps available
-  to visitors to your website.
-- **Unpublish.** Makes the selected Map Groups or Content Maps
-  unavailable to visitors to your website. An unpublished Map Group will
-  not be displayed as a select list in the front-end. An unpublished
-  Content Map will not appear in the select list for the Map Group in
-  which it occurs. Re-indexing does not change the published state of
-  Map Groups or Content Maps.
-- **Statistics:** Shows some basic statistics on Pesquisa Inteligente.
-- **Delete:** Deletes the selected Map Groups or Content Maps. Works
-  with one or multiple Map Groups or Content Maps selected. You can
-  recover deleted Map Groups or Content Maps by running the Smart Search
-  indexer again.
-- **Options.** Opens the Options window where settings such as default
-  parameters can be edited.
-- **Help**. Opens this help screen. See Smart Search: Options
-  for further details.
+*Traduzido por openai.com*
 
-## Dicas Rápidas
-
-- A «Pesquisa Inteligente» foi introduzida no Joomla 3.0, mas não está
-  ativada por predefinição nessa versão.
-- Se for novo para a «Pesqusia Inteligente», então deveria ler o
-  <a href="https://docs.joomla.org/Smart_Search_quickstart_guide/pt"
-  class="new"
-  title="Special:MyLanguage/Smart Search quickstart guide/pt (page does not exist)">gua
-  de iniciação rápida da «Pesquisa Inteligente»</a>.
-
-## Informação relacionada
