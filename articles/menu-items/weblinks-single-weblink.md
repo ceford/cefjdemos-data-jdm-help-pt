@@ -24,7 +24,7 @@ Para criar um novo item de menu **Link Único**:
   - Selecione o botão Novo na Barra de Ferramentas. Em seguida...
   - Selecione o botão Selecionar Tipo de Item de Menu.
   - No diálogo modal, selecione o item Links para abrir uma lista e, em seguida,
-	selecione o item **Link Único**.
+    selecione o item **Link Único**.
 
 Para editar um item de menu **Link Único** existente:
 
@@ -37,4 +37,3 @@ Para editar um item de menu **Link Único** existente:
 Todos os campos de entrada do formulário estão cobertos em *Elementos Comuns*.
 
 *Traduzido por openai.com*
-
