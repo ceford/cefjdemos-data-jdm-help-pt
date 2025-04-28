@@ -42,7 +42,7 @@ Alguns elementos desta página são abordados em artigos de Ajuda separados:
 
 ## Captura de Tela
 
-![Módulo de artigos na aba do módulo](../../../en/images/modules-site/modules-articles-module-tab.png)
+![Módulo de artigos na aba do módulo](../../../pt/images/modules-site/modules-articles-module-tab.png)
 
 ## Campos do Formulário
 
@@ -168,19 +168,19 @@ O *Campo de Agrupamento por Data* e *Formato de Exibição de Mês e Ano* são v
 
 Módulo de artigos na barra lateral direita mostrando apenas títulos.
 
-![Captura de tela do site com módulo mostrando apenas títulos de artigos](../../../pt/images/modules-site/modules-articles-site-titles.png)
+![Captura de tela do site com módulo mostrando apenas títulos de artigos](../../../en/images/modules-site/modules-articles-site-titles.png)
 
 Módulo de artigos na barra lateral direita mostrando título, autor e data.
 
-![Captura de tela do site com módulo mostrando títulos, autor e data dos artigos](../../../pt/images/modules-site/modules-articles-site-title-author-date.png)
+![Captura de tela do site com módulo mostrando títulos, autor e data dos artigos](../../../en/images/modules-site/modules-articles-site-title-author-date.png)
 
 Módulo de artigos na localização principal superior mostrando texto introdutório e imagem, e um botão *Leia Mais*.
 
-![Captura de tela do site do módulo na posição superior com botão leia mais](../../../pt/images/modules-site/modules-articles-site-top-text-image-readmore.png)
+![Captura de tela do site do módulo na posição superior com botão leia mais](../../../en/images/modules-site/modules-articles-site-top-text-image-readmore.png)
 
 Módulo de artigos na localização principal superior configurado para um layout horizontal com texto introdutório e imagem, e um botão *Leia Mais*.
 
-![Captura de tela do site com módulo de introdução de texto, imagem e leia mais](../../../pt/images/modules-site/modules-articles-site-text-image-readmore.png)
+![Captura de tela do site com módulo de introdução de texto, imagem e leia mais](../../../en/images/modules-site/modules-articles-site-text-image-readmore.png)
 
 ## Exemplos de Configuração
 
@@ -199,7 +199,7 @@ O módulo *Artigos - Arquivados* exibe uma lista de cabeçalhos de mês/ano para
 | Opções de Agrupamento| Agrupamento de Artigos  | Mês e Ano          |
 | Opções de Agrupamento| Formato de Exibição de Mês e Ano | F, Y             |
 
-![Comparação de artigos arquivados usando cada método](../../../pt/images/modules-site/modules-articles-config-archived.png)
+![Comparação de artigos arquivados usando cada método](../../../en/images/modules-site/modules-articles-config-archived.png)
 
 <big>*Notas*</big>
 
@@ -216,7 +216,7 @@ O módulo *Artigos - Categoria* exibe uma lista de links para artigos dentro de 
 | Módulo          | Categoria           | [especificar a categoria e subcategorias desejadas] |
 | Opções de Exibição | Apenas Título (listas) | Sim |
 
-![Comparação de artigos por categoria usando cada método](../../../pt/images/modules-site/modules-articles-config-category.png)
+![Comparação de artigos por categoria usando cada método](../../../en/images/modules-site/modules-articles-config-category.png)
 
 ## Artigos - Recentes
 
@@ -230,7 +230,7 @@ O módulo *Artigos - Recentes* exibe uma lista de links para os artigos mais rec
 | Opções de Ordenação | Campo do Artigo para Ordenar | Data de Início da Publicação |
 | Opções de Ordenação | Direção de Ordenação     | Decrescente  |
 
-![Comparação dos artigos recentes usando cada método](../../../pt/images/modules-site/modules-articles-config-latest.png)
+![Comparação dos artigos recentes usando cada método](../../../en/images/modules-site/modules-articles-config-latest.png)
 
 <big>*Notas*</big>
 
@@ -248,7 +248,7 @@ O módulo *Artigos - Mais Lidos* exibe uma lista de links para artigos com mais 
 | Opções de Ordenação | Campo do Artigo para Ordenar | Acessos  |
 | Opções de Ordenação | Direção de Ordenação  | Decrescente  |
 
-![Comparação de artigos mais lidos usando cada método](../../../pt/images/modules-site/modules-articles-config-most-read.png)
+![Comparação de artigos mais lidos usando cada método](../../../en/images/modules-site/modules-articles-config-most-read.png)
 
 ## Artigos - Notícias Flash
 
@@ -265,7 +265,7 @@ O módulo *Artigos - Notícias Flash* exibe o texto de um ou mais artigos. Por p
 | Opções de Exibição | Texto de Introdução   | Mostrar |
 | Opções de Exibição | Limite de Texto de Introdução (Caracteres) | 0 (para texto ilimitado) |
 
-![Comparação de notícias flash de artigos usando cada método](../../../pt/images/modules-site/modules-articles-config-news-flash.png)
+![Comparação de notícias flash de artigos usando cada método](../../../en/images/modules-site/modules-articles-config-news-flash.png)
 
 *Traduzido por openai.com*
 
